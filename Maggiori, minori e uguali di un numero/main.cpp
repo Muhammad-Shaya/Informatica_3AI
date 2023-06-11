@@ -2,7 +2,7 @@
 using namespace std;
 
 /*
- * Dato un valore k, leggere n numeri e contare quanti di essi sono maggiori, minori e uguali a k
+ * Dato un valore k, leggere n numeri e contare quanti di essi sono maggiori, minori e uguali a k.
  */
 
 int main() {
