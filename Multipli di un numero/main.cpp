@@ -2,7 +2,7 @@
 using namespace std;
 
 /*
- * Dato un numero k, leggere n numeri e verificare se sono multipli di k e in caso affermativo contare quanti sono
+ * Dato un numero k, leggere n numeri e verificare se sono multipli di k e in caso affermativo contare quanti sono.
  */
 
 int conta_multipli(int n, int k) {
