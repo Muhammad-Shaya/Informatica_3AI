@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+/*
+ * Dato un valore k, leggere n numeri e contare quanti di essi sono maggiori, minori e uguali a k
+ */
+
 int main() {
     int n, k, maggiori = 0, numeri, minori = 0, uguali = 0;
     cout << "Inserisci un valore numerico k: ";
