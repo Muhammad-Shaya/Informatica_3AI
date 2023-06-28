@@ -2,7 +2,7 @@
 using namespace std;
 
 /*
- * La funzione va a determinare il prodotto tra due frazioni
+ * La funzione va a determinare il prodotto tra due frazioni.
  */
 
 int MCD(int m, int n) {
