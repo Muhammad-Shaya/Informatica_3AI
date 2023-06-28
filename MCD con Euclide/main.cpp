@@ -2,9 +2,9 @@
 using namespace std;
 
 /*
- * Calcolo del MCD tra due numeri con Euclide
- * Se si ha una frazione la si riduce nella sua forma irriducibile
- * Esempio: 24, 36 --> MCD = 12 --> 2/3
+ * Calcolo del MCD tra due numeri con Euclide.
+ * Se si ha una frazione la si riduce nella sua forma irriducibile.
+ * Esempio: 24, 36 --> MCD = 12 --> 2/3.
  */
 
 /*
