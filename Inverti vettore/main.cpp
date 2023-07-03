@@ -2,7 +2,7 @@
 using namespace std;
 
 /*
- * Dato un vettore, mi inverti la posizione degli elementi del vettore
+ * Dato un vettore, mi inverti la posizione degli elementi del vettore.
  * Esempio: 1 2 3 4 5 --> 5 4 3 2 1
  */
 
@@ -10,8 +10,8 @@ void inverti(int v[], int n) {
     int inizio = 0;
     int fine = n - 1;
 
+    //Scambio degli elementi ai due estremi del vettore (inizio e fine)
     while (inizio < fine) {
-        //Scambio degli elementi ai due estremi del vettore (inizio e fine)
         int temp = v[inizio];
         v[inizio] = v[fine];
         v[fine] = temp;
