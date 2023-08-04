@@ -2,6 +2,12 @@
 #include <string>
 using namespace std;
 
+/*
+ * La funzione verifica se una stringa è palindroma oppure no
+ * Una stringa è palindroma se leggendo la stringa da sinistra a destra o viceversa, si ottiene sempre la stessa sequenza di caratteri
+ * Esempio --> radar --> è una stringa palindroma
+ */
+
 bool palindroma(const string &s) {
     int sinistra = 0, destra = s.size() - 1;
 
