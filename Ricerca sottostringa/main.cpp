@@ -2,6 +2,11 @@
 #include <string>
 using namespace std;
 
+/*
+ * La funzione verifica se s2 è una sottostringa di s1
+ * Restituisce il valore -1 se non lo è, oppure la posizione di inizio della corrispondenza tra gli elementi di s2 e s1
+ */
+
 int trova_sottostringa(const string &s1, const string &s2) {
     int pos = s1.find(s2);
     if (pos != string::npos)
@@ -9,7 +14,6 @@ int trova_sottostringa(const string &s1, const string &s2) {
     else
         return -1;
 }
-
 
 int main() {
     string s1, s2;
