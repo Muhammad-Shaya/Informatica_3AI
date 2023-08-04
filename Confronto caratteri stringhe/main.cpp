@@ -2,6 +2,11 @@
 #include <string>
 using namespace std;
 
+/*
+ * La funzione conta quanti caratteri della prima stringa sono presenti nella seconda stringa
+ * Esempio --> "PIPPO" e "PIPPICALZELUNGHE" --> ci sono 4 caratteri della prima stringa nella seconda
+ */
+
 int conta_caratteri_comuni(const string &s1, const string &s2) {
     int conta = 0;
 
