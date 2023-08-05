@@ -2,6 +2,13 @@
 #include <string>
 using namespace std;
 
+/*
+ * La funzione confronta due stringhe e restituisce:
+ * -1 se la prima stringa precede la seconda in ordine alfabetico
+ * 0 se sono uguali
+ * 1 se la seconda precede la prima in ordine alfabetico
+ */
+
 int confronto_stringhe(const string &s1, const string &s2) {
     int lunghezza1 = s1.size();
     int lunghezza2 = s2.size();
