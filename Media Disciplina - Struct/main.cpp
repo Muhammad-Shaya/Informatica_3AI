@@ -2,6 +2,11 @@
 #include <string>
 using namespace std;
 
+/*
+ * La struttura Studente memorizza i dati di uno studente (nome, sesso, anno di nascita) e memorizza anche i voti relativi alle discipline (italiano, inglese, matematica)
+ * La funzione "piu_facile()" a partire da un vettore di studenti, determina la disciplina che ha la media dei voti più alta
+ */
+
 struct Voti {
     float italiano;
     float inglese;
