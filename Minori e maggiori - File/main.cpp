@@ -2,6 +2,10 @@
 #include <fstream>
 using namespace std;
 
+/*
+ * Dato un file numeri.txt contenente valori interi e un valore intero N dato dall'utente, memorizzo i valori minori di N in un file minori.txt e quelli maggiori in un file maggiori.txt
+ */
+
 int main() {
     ifstream in("../numeri.txt");
 
