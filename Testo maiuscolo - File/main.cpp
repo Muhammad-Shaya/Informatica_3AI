@@ -3,6 +3,10 @@
 #include <string>
 using namespace std;
 
+/*
+ * Dato un file di testo 'testo.txt' contenente un testo, il programma crea un file di testo 'maiuscolo.txt' trasforma il testo del primo file in maiuscolo.
+ */
+
 int main() {
     ifstream in("../testo.txt");
     if (!in) {
